@@ -1,0 +1,26 @@
+DATA CLEANING SUMMARY
+Station CSV files loaded: 12
+Rows loaded: 420,768
+Rows after cleaning: 420,768
+Invalid timestamps removed: 0
+Duplicate station-hour rows removed: 0
+Missing PM2.5 readings: 8,739
+Start: 2013-03-01 00:00:00
+End: 2017-02-28 23:00:00
+
+Missing value counts after converting -200 to missing:
+CO       20701
+O3       13277
+NO2      12116
+SO2       9021
+PM2.5     8739
+PM10      6449
+wd        1822
+DEWP       403
+TEMP       398
+PRES       393
+RAIN       390
+WSPM       318
+
+Note: missing feature values are imputed inside the model pipeline using training data only.
+Rows without a valid next-hour PM2.5 target are excluded from supervised training/evaluation.

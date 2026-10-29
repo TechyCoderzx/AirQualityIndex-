@@ -1,0 +1,13 @@
+AIR QUALITY TREND PREDICTOR — EVALUATION RESULTS
+Model: Linear Regression only
+Forecast horizon: 1 hour(s)
+Train fraction by time: 80%
+Training examples: 329,466
+Testing examples: 82,551
+Test period begins: 2016-05-12 09:00:00
+MAE (µg/m³): 10.3056
+RMSE (µg/m³): 19.4661
+R²: 0.945501
+
+MAE is the mean absolute error, the main metric required by the assignment.
+The test set contains later timestamps than the training set.

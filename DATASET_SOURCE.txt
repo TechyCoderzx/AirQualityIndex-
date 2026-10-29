@@ -1,0 +1,7 @@
+Dataset: Beijing Multi-Site Air Quality
+UCI Machine Learning Repository — Dataset 501
+Official URL: https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data
+Dataset citation: Chen, S. (2017). Beijing Multi-Site Air Quality [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5RK5G
+License listed by UCI: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This project includes the 12 station-level CSV files from the UCI dataset. Please retain this attribution when reusing the data.
